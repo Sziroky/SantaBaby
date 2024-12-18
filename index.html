@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ho! Ho! Ho!</title>
+    <!-- .CSS file reference -->
+    <link rel="stylesheet" href="/JQuerry/style.css">
+    <!-- Google Font Reference -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mountains+of+Christmas:wght@400;700&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="header">
+        <img src="assets/bells-removebg-preview.png" alt="bells" class = "bells">
+        <h1 class="codystar-light on">Merry Christmas</h1>
+    </div>
+    <div class="first">
+       <p class="playfair-display">Sprawdź czy byłeś grzeczny?</p>
+    </div>
+    <div class="buttons">
+        <button class="Babcia" onclick='openPopup(1)'> <img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Dziadek" onclick='openPopup(2)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Dariusz" onclick='openPopup(3)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Kasia" onclick='openPopup(4)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Jula" onclick='openPopup(5)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Wika" onclick='openPopup(6)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Alan" onclick='openPopup(7)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="KasiaS" onclick='openPopup(8)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Ola" onclick='openPopup(9)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Grzesiek" onclick='openPopup(10)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Stramki" onclick='openPopup(11)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Dziewczynki" onclick='openPopup(12)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="BartekLusia" onclick='openPopup(13)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Gizela" onclick='openPopup(14)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Krzysiek" onclick='openPopup(15)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+    </div>
+
+    <div id="popup" class="popup">
+        <h3 id="popup-title">Popup</h3>
+        <p id="zag">fdffdhdhhdgdgh</p>
+        <label for="text-input">🎅:</label>
+        <input type="text" id="text-input" placeholder="Odpowiedz:">
+        <br>
+        <br>
+        <button class="submit-btn" onclick="submitInput()">Sprawdź</button>
+        <button class="close-btn" onclick="closePopup()">X</button>
+      </div>
+     
+    <img src="assets/ginger-bread-removebg-preview.png" alt="ginger man" class="ginger">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/JQuerry/index.js" charset="utf-8"></script>
+</body>
+</html>
