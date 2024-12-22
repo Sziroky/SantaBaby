@@ -74,7 +74,7 @@ function openPopup(buttonNumber) {
 
     case 9:
     document.getElementById('popup-title').innerText = `Kolor Turkusowy`;
-    document.getElementById('zag').innerText = `Zanzibar, Paryż świat otworem stoi. Tego życzymy kochanej ...`;
+    document.getElementById('zag').innerText = `Następne święta spędzi na Zanzibarze, a w marcu Paryż jej się ukaże. bo świat otworem stoi.. ten prezent trafi do kochanej... `;
     popup.classList.add('active');
     validName = 'Ola'
     break
@@ -173,9 +173,9 @@ function openPopup(buttonNumber) {
     
     case 23:
     document.getElementById('popup-title').innerText = `Kolor Biały`;
-    document.getElementById('zag').innerText = `Życzę ci zdrowia a resztę Sobie ogarniesz ;)`;
+    document.getElementById('zag').innerText = `Stronę pisał od tygodnia, więc zabawa w Święta będzie udana - prezent ten idzie do najprzystojniejszego Pana. `;
     popup.classList.add('active');
-    validName = 'Michał'
+    validName = 'Piotr'
     break 
     };
 
