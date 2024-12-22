@@ -110,14 +110,14 @@ function openPopup(buttonNumber) {
     
     case 14:
     document.getElementById('popup-title').innerText = `Kolor Granatowy`;
-    document.getElementById('zag').innerText = `ogłosili, do betlejem przybieżeli oto jest prezent dla super ...`;
+    document.getElementById('zag').innerText = `Do betlejem przybieżeli oto jest prezent dla super ...`;
     popup.classList.add('active');
     validName = 'Gizeli'
     break
 
     case 15:
     document.getElementById('popup-title').innerText = `Kolor Purpurowy`;
-    document.getElementById('zag').innerText = `Dużo zdrowia, pyszny bigos gotuje. ... mikołaj ten prezent podruje.`;
+    document.getElementById('zag').innerText = `Dużo zdrowia, pyszny bigos gotuje. ... mikołaj ten prezent podaruje.`;
     popup.classList.add('active');
     validName = 'Krzysiowi'
     break      
