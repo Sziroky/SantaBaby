@@ -52,7 +52,6 @@ h1{
     z-index: -1;
     opacity: 0.3;
     width: 500px;
-    right: 0px;
 }
 
 .on{
@@ -63,19 +62,19 @@ h1{
 }
 
 .codystar-light {
-    font-family: "Codystar", sans-serif;
+    font-family: Codystar, sans-serif;
     font-weight: 600;
     font-style: normal;
   }
   
 .codystar-regular {
-    font-family: "Codystar", sans-serif;
+    font-family: Codystar, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   
 .playfair-display{
-    font-family: "Playfair Display", serif;
+    font-family: Playfair Display, serif;
     font-optical-sizing: auto;
     font-weight: 300px;
     font-style: normal;
@@ -117,7 +116,7 @@ button{
 }
 
 .KasiaS{
-    background-color: bisque;
+    background-color: chartreuse;
 }
 
 .Jula{
@@ -125,7 +124,7 @@ button{
 }
 
 .Wika{
-    background-color: chartreuse;
+    background-color: bisque;
 }
 
 .Ola{
@@ -153,7 +152,32 @@ button{
 }
 
 .Dziewczynki{
-    background-color: azure;
+    background-color: rgb(253, 4, 153);
+}
+
+.Bartek{
+    background-color: #4CAF50;
+}
+.Lusia{
+    background-color: #e6e662;
+}
+.Misia{
+    background-color: #e65896;
+}
+.Hania{
+    background-color: #00dbcd;
+}
+.Ania{
+    background-color: #ff0303;
+}
+.Michal{
+    background-color: #6b7e6b;
+}
+.Zwierzaki{
+    background-color: #f58c46;
+}
+.Piotr{
+    background-color: #ffffff;
 }
 
 .popup {
@@ -205,3 +229,7 @@ button{
     border-radius: 5%;
     border: 2px solid black;
     }
+
+ .text-input-good{
+    background-color: #4CAF50;
+ }

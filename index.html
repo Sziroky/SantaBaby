@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ho! Ho! Ho!</title>
     <!-- .CSS file reference -->
-    <link rel="stylesheet" href="/JQuerry/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Google Font Reference -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,40 +18,48 @@
         <h1 class="codystar-light on">Merry Christmas</h1>
     </div>
     <div class="first">
-       <p class="playfair-display">Sprawdź czy byłeś grzeczny?</p>
+       <p class="playfair-display">Dokończ rymowankę i Sprawdź czy byłeś grzeczny?</p>
     </div>
     <div class="buttons">
-        <button class="Babcia" onclick='openPopup(1)'> <img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Dziadek" onclick='openPopup(2)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Dariusz" onclick='openPopup(3)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Kasia" onclick='openPopup(4)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Jula" onclick='openPopup(5)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Wika" onclick='openPopup(6)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Alan" onclick='openPopup(7)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="KasiaS" onclick='openPopup(8)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Ola" onclick='openPopup(9)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Grzesiek" onclick='openPopup(10)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Stramki" onclick='openPopup(11)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Dziewczynki" onclick='openPopup(12)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="BartekLusia" onclick='openPopup(13)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Gizela" onclick='openPopup(14)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
-        <button class="Krzysiek" onclick='openPopup(15)'><img src="assets/gift-svgrepo-com.svg" width="50"/></button>
+        <button class="Babcia" onclick='openPopup(1)'> <img src="assets/gift-svgrepo-com.svg" width="50"/>1</button>
+        <button class="Dziadek" onclick='openPopup(2)'><img src="assets/gift-svgrepo-com.svg" width="50"/>2</button>
+        <button class="Dariusz" onclick='openPopup(3)'><img src="assets/gift-svgrepo-com.svg" width="50"/>3</button>
+        <button class="Kasia" onclick='openPopup(4)'><img src="assets/gift-svgrepo-com.svg" width="50"/>4</button>
+        <button class="Jula" onclick='openPopup(5)'><img src="assets/gift-svgrepo-com.svg" width="50"/>5</button>
+        <button class="Wika" onclick='openPopup(6)'><img src="assets/gift-svgrepo-com.svg" width="50"/>6</button>
+        <button class="Alan" onclick='openPopup(7)'><img src="assets/gift-svgrepo-com.svg" width="50"/>7</button>
+        <button class="KasiaS" onclick='openPopup(8)'><img src="assets/gift-svgrepo-com.svg" width="50"/>8</button>
+        <button class="Ola" onclick='openPopup(9)'><img src="assets/gift-svgrepo-com.svg" width="50"/>9</button>
+        <button class="Grzesiek" onclick='openPopup(10)'><img src="assets/gift-svgrepo-com.svg" width="50"/>10</button>
+        <button class="Stramki" onclick='openPopup(11)'><img src="assets/gift-svgrepo-com.svg" width="50"/>11</button>
+        <button class="Dziewczynki" onclick='openPopup(12)'><img src="assets/gift-svgrepo-com.svg" width="50"/>12</button>
+        <button class="BartekLusia" onclick='openPopup(13)'><img src="assets/gift-svgrepo-com.svg" width="50"/>13</button>
+        <button class="Gizela" onclick='openPopup(14)'><img src="assets/gift-svgrepo-com.svg" width="50"/>14</button>
+        <button class="Krzysiek" onclick='openPopup(15)'><img src="assets/gift-svgrepo-com.svg" width="50"/>15</button>
+        <button class="Bartek" onclick='openPopup(16)'><img src="assets/gift-svgrepo-com.svg" width="50"/>16</button>
+        <button class="Lusia" onclick='openPopup(17)'><img src="assets/gift-svgrepo-com.svg" width="50"/>17</button>
+        <button class="Misia" onclick='openPopup(18)'><img src="assets/gift-svgrepo-com.svg" width="50"/>18</button>
+        <button class="Hania" onclick='openPopup(19)'><img src="assets/gift-svgrepo-com.svg" width="50"/>19</button>
+        <button class="Ania" onclick='openPopup(20)'><img src="assets/gift-svgrepo-com.svg" width="50"/>20</button>
+        <button class="Michal" onclick='openPopup(21)'><img src="assets/gift-svgrepo-com.svg" width="50"/>21</button>
+        <button class="Zwierzaki" onclick='openPopup(22)'><img src="assets/gift-svgrepo-com.svg" width="50"/>22</button>
+        <button class="Piotr" onclick='openPopup(23)'><img src="assets/gift-svgrepo-com.svg" width="50"/>22</button>
     </div>
 
     <div id="popup" class="popup">
-        <h3 id="popup-title">Popup</h3>
-        <p id="zag">fdffdhdhhdgdgh</p>
+        <h3 id="popup-title"></h3>
+        <p id="zag"></p>
         <label for="text-input">🎅:</label>
-        <input type="text" id="text-input" placeholder="Odpowiedz:">
+        <input type="text" id="text-input" class="text-input" placeholder="Odpowiedz:">
         <br>
         <br>
-        <button class="submit-btn" onclick="submitInput()">Sprawdź</button>
+        <button class="submit-btn" onclick="submitInput(validName)">Sprawdź</button>
         <button class="close-btn" onclick="closePopup()">X</button>
       </div>
      
     <img src="assets/ginger-bread-removebg-preview.png" alt="ginger man" class="ginger">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="/JQuerry/index.js" charset="utf-8"></script>
+    
+    <script src="index.js" charset="utf-8"></script>
 </body>
 </html>
